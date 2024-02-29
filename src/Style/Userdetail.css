@@ -1,0 +1,61 @@
+.Userdetailmain{
+    width: 70%;
+    margin: 20px;
+    max-height: 550px;
+    background-color: rgb(22, 19, 19);
+    float: right;
+    position: relative;
+    color: aliceblue;
+    border-radius: 40px;
+}
+.Userdetailcontainer{
+    display: flex;
+   
+}
+.detailimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.Userdetails{
+    padding: 10px;
+    color: rgb(110, 110, 110);
+}
+.Userdetails span{
+    color:rgb(145, 88, 203)
+}
+.userotherdetails{
+    width: 80%;
+    color: rgb(110, 110, 110);
+    height: 180px;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding: 5px;
+    border: 1px solid rgb(90, 86, 82);
+}
+.userotherdetails span{
+    color:rgb(145, 88, 203)
+}
+.displayContainer {
+    display: flex;
+   flex-wrap: wrap;
+  }
+.displaylanguage{
+    display: flex;
+    width: fit-content;
+    height: 15px;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    place-items: center;
+    background-color: rgb(182, 120, 240);
+    color: black;
+    font-size: 13px;
+}
+.nodata{
+    float:right;
+   margin: 200px;
+    color: blueviolet;
+}

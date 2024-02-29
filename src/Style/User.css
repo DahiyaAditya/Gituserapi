@@ -1,0 +1,38 @@
+
+.main{
+    overflow: hidden;
+    width: 350px;
+    max-height: 550px;
+    background-color: rgb(19, 19, 19);
+    overflow-y: scroll;
+    scrollbar-color: rgb(101, 101, 101) rgb(38, 38, 38);
+  scrollbar-width: thin;
+}
+.userlist{
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+.userlist:hover{
+    background-color:rgb(66, 57, 57);
+}
+.userimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    float: left;
+    padding-top: 5px;
+    margin: 10px;
+}
+.username{
+    color: rgb(0, 0, 0);
+    float: left;
+    padding-top: 10px;
+}
+.username span{
+    color: rgb(81, 65, 140);
+}
